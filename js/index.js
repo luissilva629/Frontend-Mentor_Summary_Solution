@@ -1,4 +1,4 @@
-const url = "../data.json";
+const url = "data.json";
 const tabs = document.querySelectorAll(".tab");
 const tabImg = document.querySelectorAll(".tab img");
 const tabH2 = document.querySelectorAll(".tab h2");
