@@ -24,17 +24,6 @@ main {
   background-color: $white;
   border-radius: 3rem;
   display: flex;
-  .result,
-  .summary {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    padding: 3rem;
-    border-radius: 3rem;
-    width: 100%;
-    height: inherit;
-    max-width: 40rem;
-  }
 
   .result {
     background: linear-gradient(45deg, $light-slate-blue, $light-royal-blue);
@@ -84,7 +73,16 @@ main {
     }
   }
 
+  .result,
   .summary {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 3rem;
+    border-radius: 3rem;
+    width: 100%;
+    height: inherit;
+    max-width: 40rem;
     .title {
       h1 {
         font-size: 2.4rem;
