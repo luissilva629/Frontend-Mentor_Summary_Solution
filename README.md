@@ -17,7 +17,7 @@ This is a solution to the [Results summary component challenge on Frontend Mento
 
 ### Links
 
-- Live Site URL: [Solution Github Pages]()
+- Live Site URL: [Solution Github Pages](https://luissilva629.github.io/Frontend-Mentor_Summary_Solution/)
 
 ## Author
 
