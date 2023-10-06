@@ -7,9 +7,10 @@ const tabSpan = document.querySelectorAll(".tab p span");
 fetch(url)
   .then((response) => response.json())
   .then((json) => {
-    for (let i = 0; i <= tabs.length - 1; i++) {
-      tabImg[i].setAttribute("src", json[i].icon);
-      tabH2[i].innerText = json[i].category;
-      tabSpan[i].innerText = json[i].score;
-    }
+    json.forEach((elem, i) => {
+      const { category, score, icon } = elem;
+      tabImg[i].setAttribute("src", icon);
+      tabH2[i].innerText = category;
+      tabSpan[i].innerText = score;
+    });
   });
